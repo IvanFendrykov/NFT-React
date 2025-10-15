@@ -1,0 +1,156 @@
+body {
+  background-color: var(--bcPrimery);
+}
+
+nav {
+  padding: 15px 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--whiteColor);
+  .logo-accent {
+    color: var(--violetColor);
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
+.burger-trigger {
+  background-color: var(--violetColor);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--bcPrimery);
+}
+.bi-list {
+  height: 32px;
+  width: 32px;
+}
+.NavigationList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ListBurger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  li {
+    color: var(--whiteColor);
+    // padding: 12px 20px;
+    cursor: pointer;
+
+    &:last-child {
+      background-color: var(--violetColor);
+      border-radius: var(--borRad);
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 20px;
+      &:last-child {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+    }
+  }
+}
+
+.ListBurger li:last-child .Btn {
+  background-color: var(--violetColor);
+  border-radius: var(--borRad);
+  color: var(--whiteColor);
+  padding: 12px 20px;
+}
+
+.popover {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 1000;
+  background-color: var(--bcSecondary);
+  backdrop-filter: blur(10px);
+}
+
+.popoverclose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--whiteColor);
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1.5px solid var(--violetColor);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ListDesktop {
+  display: none;
+}
+.popover.is-hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .popover {
+    width: 50%;
+    padding: 0 50px 100px;
+    right: 0;
+    left: auto;
+    height: fit-content;
+    margin-left: auto;
+    border-radius: var(--borRad);
+  }
+}
+
+@media (min-width: 1024px) {
+  .burger-trigger {
+    display: none;
+  }
+
+  .ListDesktop {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .ListDesktop li {
+    list-style: none;
+  }
+
+  .ListDesktop a,
+  .ListDesktop .Btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--whiteColor);
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .ListDesktop li:last-child .Btn {
+    background-color: var(--violetColor);
+    border-radius: var(--borRad);
+  }
+  .ListDesktop li:last-child .Btn:hover,
+  .ListDesktop li:last-child .Btn:focus,
+  .ListDesktop li:last-child .Btn:active {
+    background-color: var(--bcSecondary);
+    outline: 2px solid var(--violetColor);
+    box-shadow: 0 0 10px var(--whiteColor);
+  }
+
+  .ListDesktop a svg {
+    width: 24px;
+  }
+}
