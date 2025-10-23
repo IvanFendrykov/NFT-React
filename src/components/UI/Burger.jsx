@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import React from "react";
 import Btn from "./Button";
 
@@ -26,13 +27,13 @@ const BurgerMenu = React.forwardRef(function BurgerMenu(_props, popRef) {
       </button>
       <ul className="ListBurger" onClick={handleItemClick}>
         <li>
-          <a href="/marketplace">Marketplace</a>
+          <NavLink to="/">Marketplace</NavLink>
         </li>
         <li>
-          <a href="/rankings">Rankings</a>
+          <NavLink to="/rankings">Rankings</NavLink>
         </li>
         <li>
-          <a href="/wallet">Connect a wallet</a>
+          <NavLink to="/wallet">Connect a wallet</NavLink>
         </li>
         <li>
           <Btn className="Btn">Sign Up</Btn>

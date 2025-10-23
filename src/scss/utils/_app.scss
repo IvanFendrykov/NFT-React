@@ -10,8 +10,8 @@ li {
 
 html {
   font-family: Work Sans;
-  font-size: 16px; /* базовый размер шрифта */
-  scroll-behavior: smooth; /* плавный скролл по якорям */
+  font-size: 16px;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -46,7 +46,6 @@ textarea {
   background: inherit;
 }
 
-/* оптимизация изображений и медиа */
 img,
 video,
 canvas,
@@ -56,7 +55,6 @@ svg {
   display: block;
 }
 
-/* оптимизация таблиц */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -66,12 +64,13 @@ svg {
   width: 32px;
   height: 32px;
 }
-/* делает весь интерфейс более живым — плавно реагирует на hover и focus */
+
 *,
 *::before,
 *::after {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
+
 .container {
   color: var(--whiteColor);
   margin: 0 auto;

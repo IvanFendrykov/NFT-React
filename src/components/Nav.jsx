@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { NavLink, Link } from "react-router-dom";
 import Btn from "./UI/Button";
 import BurgerMenu from "./UI/Burger";
 
@@ -7,18 +8,18 @@ function Nav() {
   return (
     <>
       <nav className="nav NavigationList" aria-label="Navigashion">
-        <a href="/" className="logo" aria-label="NFT Marketplace">
+        <Link to="/" className="logo" aria-label="NFT Marketplace">
           <span className="logo-accent">NFT</span>Marketplace
-        </a>
+        </Link>
         <ul className="ListDesktop">
           <li>
-            <a href="/marketplace">Marketplace</a>
+            <NavLink to="/">Marketplace</NavLink>
           </li>
           <li>
-            <a href="/rankings">Rankings</a>
+            <NavLink to="/rankings">Rankings</NavLink>
           </li>
           <li>
-            <a href="/wallet">Connect a wallet</a>
+            <NavLink to="/wallet">Connect a wallet</NavLink>
           </li>
           <li>
             <Btn className="Btn">Sign Up</Btn>

@@ -1,0 +1,15 @@
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--whiteColor);
+  overflow: hidden;
+  gap: 12px;
+  padding: 19px 50px;
+  background-color: var(--violetColor);
+  border-radius: var(--borRad);
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
