@@ -504,4 +504,76 @@ nav {
 .AvatarPrice div p:first-child {
   color: var(--labelText);
   margin-bottom: 8px;
+}
+
+.TitleBox {
+  margin-bottom: 40px;
+}
+.TitleBox h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.TrendingCardList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: var(--margin);
+}
+
+.PrimaryCard {
+  margin-bottom: 15px;
+}
+
+.TrendingImageList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.TrendingImageList li {
+  width: 95px;
+  height: 95px;
+  background-color: var(--violetColor);
+  border-radius: var(--borRad);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.TrendingImageList li span {
+  font-family: Space Mono;
+  font-weight: 700;
+}
+
+.TabletCard,
+.DesktopCard {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .PrimaryCard {
+    width: 330px;
+  }
+  .TabletCard {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .DesktopCard {
+    display: block;
+  }
+}
+.Nopadding {
+  padding: 22px 0px 0px;
 }/*# sourceMappingURL=index.css.map */
