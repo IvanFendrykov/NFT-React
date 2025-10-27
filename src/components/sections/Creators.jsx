@@ -1,5 +1,5 @@
 import Btn from "../UI/Button";
-import Sprite from "../../assets/sprite.svg";
+import Sprite from "/NFT-React/assets/sprite.svg";
 import CreateUsers from "../UI/CreateUsers";
 
 function Creators() {

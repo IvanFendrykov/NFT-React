@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Btn from "./UI/Button";
 import BurgerMenu from "./UI/Burger";
-import Sprite from "../assets/sprite.svg";
+import Sprite from "/NFT-React/assets/sprite.svg";
 
 function Nav() {
   const popRef = useRef(null);

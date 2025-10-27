@@ -1,6 +1,6 @@
-import ManMoon from "../assets/ManMoon.png";
-import Animakid from "../assets/Animakid.png";
-import Sprite from "../assets/sprite.svg";
+import ManMoon from "/NFT-React/assets/ManMoon.png";
+import Animakid from "/NFT-React/assets/Animakid.png";
+import Sprite from "/NFT-React/assets/sprite.svg";
 import Btn from "./UI/Button";
 
 function Header() {

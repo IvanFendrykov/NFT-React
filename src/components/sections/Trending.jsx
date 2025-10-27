@@ -1,15 +1,15 @@
-import DogCard from "../../assets/images/Card1.png";
-import DogCard1 from "../../assets/images/Card1Placeholder.png";
-import DogCard2 from "../../assets/images/Card1Placeholder2.png";
-import MashroomCard from "../../assets/images/Card2.png";
-import MashroomCard1 from "../../assets/images/Card2Placeholder.png";
-import MashroomCard2 from "../../assets/images/Card2Placeholder2.png";
-import RobotCard from "../../assets/images/Card3.png";
-import RobotCard1 from "../../assets/images/Card3Placeholder.png";
-import RobotCard2 from "../../assets/images/Card3Placeholder2.png";
-import MrFox from "../../assets/MrFox.png";
-import Shroomie from "../../assets/Shroomie.png";
-import BeKind2Robots from "../../assets/BeKind2Robots.png";
+import DogCard from "/NFT-React/assets/images/Card1.png";
+import DogCard1 from "/NFT-React/assets/images/Card1Placeholder.png";
+import DogCard2 from "/NFT-React/assets/images/Card1Placeholder2.png";
+import MashroomCard from "/NFT-React/assets/images/Card2.png";
+import MashroomCard1 from "/NFT-React/assets/images/Card2Placeholder.png";
+import MashroomCard2 from "/NFT-React/assets/images/Card2Placeholder2.png";
+import RobotCard from "/NFT-React/assets/images/Card3.png";
+import RobotCard1 from "/NFT-React/assets/images/Card3Placeholder.png";
+import RobotCard2 from "/NFT-React/assets/images/Card3Placeholder2.png";
+import MrFox from "/NFT-React/assets/MrFox.png";
+import Shroomie from "/NFT-React/assets/Shroomie.png";
+import BeKind2Robots from "/NFT-React/assets/BeKind2Robots.png";
 // Shroomie
 
 function Trending() {
