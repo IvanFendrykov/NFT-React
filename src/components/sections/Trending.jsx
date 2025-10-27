@@ -1,16 +1,4 @@
-import DogCard from "/NFT-React/assets/images/Card1.png";
-import DogCard1 from "/NFT-React/assets/images/Card1Placeholder.png";
-import DogCard2 from "/NFT-React/assets/images/Card1Placeholder2.png";
-import MashroomCard from "/NFT-React/assets/images/Card2.png";
-import MashroomCard1 from "/NFT-React/assets/images/Card2Placeholder.png";
-import MashroomCard2 from "/NFT-React/assets/images/Card2Placeholder2.png";
-import RobotCard from "/NFT-React/assets/images/Card3.png";
-import RobotCard1 from "/NFT-React/assets/images/Card3Placeholder.png";
-import RobotCard2 from "/NFT-React/assets/images/Card3Placeholder2.png";
-import MrFox from "/NFT-React/assets/MrFox.png";
-import Shroomie from "/NFT-React/assets/Shroomie.png";
-import BeKind2Robots from "/NFT-React/assets/BeKind2Robots.png";
-// Shroomie
+import { BASEURL, BASE } from "../UI/Helpers";
 
 function Trending() {
   return (
@@ -25,13 +13,17 @@ function Trending() {
             <li>
               <div className="TrendingCard">
                 <div>
-                  <img className="PrimaryCard" src={DogCard} alt="Dog" />
+                  <img
+                    className="PrimaryCard"
+                    src={`${BASEURL}Card1.png`}
+                    alt="Dog"
+                  />
                   <ul className="TrendingImageList">
                     <li>
-                      <img src={DogCard1} alt="" />
+                      <img src={`${BASEURL}Card1Placeholder.png`} alt="" />
                     </li>
                     <li>
-                      <img src={DogCard2} alt="" />
+                      <img src={`${BASEURL}Card1Placeholder2.png`} alt="" />
                     </li>
                     <li>
                       <span>1025+</span>
@@ -41,7 +33,7 @@ function Trending() {
                 <div className="CardName Nopadding">
                   <h5>DSGN Animals</h5>
                   <div className="AvatarCard">
-                    <img src={MrFox} alt="" />
+                    <img src={`${BASE}MrFox.png`} alt="" />
                     <span>MrFox</span>
                   </div>
                 </div>
@@ -50,13 +42,17 @@ function Trending() {
             <li className="TabletCard">
               <div className="TrendingCard">
                 <div>
-                  <img className="PrimaryCard" src={MashroomCard} alt="Dog" />
+                  <img
+                    className="PrimaryCard"
+                    src={`${BASEURL}Card2.png`}
+                    alt="Dog"
+                  />
                   <ul className="TrendingImageList">
                     <li>
-                      <img src={MashroomCard1} alt="" />
+                      <img src={`${BASEURL}Card2Placeholder.png`} alt="" />
                     </li>
                     <li>
-                      <img src={MashroomCard2} alt="" />
+                      <img src={`${BASEURL}Card2Placeholder2.png`} alt="" />
                     </li>
                     <li>
                       <span>1025+</span>
@@ -66,7 +62,7 @@ function Trending() {
                 <div className="CardName Nopadding">
                   <h5>Magic Mushrooms</h5>
                   <div className="AvatarCard">
-                    <img src={Shroomie} alt="" />
+                    <img src={`${BASE}Shroomie.png`} alt="" />
                     <span>Shroomie</span>
                   </div>
                 </div>
@@ -75,13 +71,17 @@ function Trending() {
             <li className="DesktopCard">
               <div className="TrendingCard">
                 <div>
-                  <img className="PrimaryCard" src={RobotCard} alt="Dog" />
+                  <img
+                    className="PrimaryCard"
+                    src={`${BASEURL}Card3.png`}
+                    alt="Dog"
+                  />
                   <ul className="TrendingImageList">
                     <li>
-                      <img src={RobotCard1} alt="" />
+                      <img src={`${BASEURL}Card3Placeholder.png`} alt="" />
                     </li>
                     <li>
-                      <img src={RobotCard2} alt="" />
+                      <img src={`${BASEURL}Card3Placeholder2.png`} alt="" />
                     </li>
                     <li>
                       <span>1025+</span>
@@ -91,7 +91,7 @@ function Trending() {
                 <div className="CardName Nopadding">
                   <h5>Disco Machines</h5>
                   <div className="AvatarCard">
-                    <img src={BeKind2Robots} alt="" />
+                    <img src={`${BASE}BeKind2Robots.png`} alt="" />
                     <span>BeKind2Robots</span>
                   </div>
                 </div>

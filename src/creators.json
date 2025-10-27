@@ -1,62 +1,62 @@
 [
   {
     "name": "Keepitreal",
-    "imageurl": "/NFT-React/assets/Keepitreal.png",
+    "imageurl": "/Keepitreal.png",
     "eth": 34.53
   },
   {
     "name": "DigiLab",
-    "imageurl": "/NFT-React/assets/DigiLab.png",
+    "imageurl": "/DigiLab.png",
     "eth": 32.13
   },
   {
     "name": "GravityOne",
-    "imageurl": "/NFT-React/assets/GravityOne.png",
+    "imageurl": "/GravityOne.png",
     "eth": 28.93
   },
   {
     "name": "Juanie",
-    "imageurl": "/NFT-React/assets/Keepitreal.png",
+    "imageurl": "/Keepitreal.png",
     "eth": 25.3
   },
   {
     "name": "BlueWhale",
-    "imageurl": "/NFT-React/assets/BlueWhale.png",
+    "imageurl": "/BlueWhale.png",
     "eth": 22.22
   },
   {
     "name": "Mr Fox",
-    "imageurl": "/NFT-React/assets/MrFox.png",
+    "imageurl": "/MrFox.png",
     "eth": 19.28
   },
   {
     "name": "Shroomie",
-    "imageurl": "/NFT-React/assets/Shroomie.png",
+    "imageurl": "/Shroomie.png",
     "eth": 18.83
   },
   {
     "name": "Robotica",
-    "imageurl": "/NFT-React/assets/Robotica.png",
+    "imageurl": "/Robotica.png",
     "eth": 18.13
   },
   {
     "name": "RustyRobot",
-    "imageurl": "/NFT-React/assets/RustyRobot.png",
+    "imageurl": "/RustyRobot.png",
     "eth": 17.53
   },
   {
     "name": "Animakid",
-    "imageurl": "/NFT-React/assets/Animakid.png",
+    "imageurl": "/Animakid.png",
     "eth": 16.51
   },
   {
     "name": "Dotgu",
-    "imageurl": "/NFT-React/assets/dotgu.png",
+    "imageurl": "/dotgu.png",
     "eth": 15.03
   },
   {
     "name": "Ghiblier",
-    "imageurl": "/NFT-React/assets//Ghiblier.png",
+    "imageurl": "//Ghiblier.png",
     "eth": 14.53
   }
 ]

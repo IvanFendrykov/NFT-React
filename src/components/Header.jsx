@@ -1,6 +1,4 @@
-import ManMoon from "/NFT-React/assets/ManMoon.png";
-import Animakid from "/NFT-React/assets/Animakid.png";
-import Sprite from "/NFT-React/assets/sprite.svg";
+import { Sprite, BASEURL, BASE } from "./UI/Helpers";
 import Btn from "./UI/Button";
 
 function Header() {
@@ -16,11 +14,15 @@ function Header() {
             </p>
           </div>
           <div className="HeaderCard Hidden">
-            <img className="CardImage" src={ManMoon} alt="Man on moon" />
+            <img
+              className="CardImage"
+              src={`${BASEURL}ManMoon.png`}
+              alt="Man on moon"
+            />
             <div className="CardName">
               <h5>Space Walking</h5>
               <div className="AvatarCard">
-                <img src={Animakid} alt="Avatar" />
+                <img src={`${BASE}Animakid.png`} alt="Avatar" />
                 <span>Animakid</span>
               </div>
             </div>
@@ -49,11 +51,15 @@ function Header() {
           </div>
         </div>
         <div className="HeaderCard Showed">
-          <img className="CardImage" src={ManMoon} alt="Man on moon" />
+          <img
+            className="CardImage"
+            src={`${BASEURL}ManMoon.png`}
+            alt="Man on moon"
+          />
           <div className="CardName">
             <h5>Space Walking</h5>
             <div className="AvatarCard">
-              <img src={Animakid} alt="Avatar" />
+              <img src={`${BASE}Animakid.png`} alt="Avatar" />
               <span>Animakid</span>
             </div>
           </div>

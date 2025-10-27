@@ -1,4 +1,5 @@
 import users from "../../creators.json";
+import { BASE } from "./Helpers.jsx";
 function CreateUsers() {
   return (
     <>
@@ -8,7 +9,10 @@ function CreateUsers() {
             <li className="CreatorsItem" key={u.name}>
               <div className="Position">
                 <div className="PositionAbs">{i + 1}</div>
-                <img src={u.imageurl} alt={u.name} />
+                <img
+                  src={`${BASE}${u.imageurl.replace(/^\//, "")}`}
+                  alt={u.name}
+                />
               </div>
               <div className="CreatorsName">
                 <h5>{u.name}</h5>

@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import Btn from "./Button";
-import Sprite from "/NFT-React/assets/sprite.svg";
+// import Sprite from "/NFT-React/assets/sprite.svg";
+import { Sprite } from "./Helpers";
 
 const BurgerMenu = React.forwardRef(function BurgerMenu(_props, popRef) {
   const handleclose = () => {
