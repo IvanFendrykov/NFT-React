@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Btn from "./UI/Button";
 import BurgerMenu from "./UI/Burger";
+import Sprite from "../assets/sprite.svg";
 
 function Nav() {
   const popRef = useRef(null);
@@ -35,7 +36,9 @@ function Nav() {
             else el?.classList?.remove("is-hidden");
           }}
         >
-          <i className="bi bi-list" aria-hidden="true"></i>
+          <svg>
+            <use href={`${Sprite}#List`}></use>
+          </svg>
         </button>
       </nav>
       <BurgerMenu ref={popRef} />

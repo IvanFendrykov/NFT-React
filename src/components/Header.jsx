@@ -1,6 +1,6 @@
 import ManMoon from "../assets/ManMoon.png";
 import Animakid from "../assets/Animakid.png";
-import Rocket from "../assets/sprite.svg";
+import Sprite from "../assets/sprite.svg";
 import Btn from "./UI/Button";
 
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
           </div>
           <Btn className=" AnimationSvg" type="button">
             <svg>
-              <use href={`${Rocket}#RocketLaunch`}></use>
+              <use href={`${Sprite}#RocketLaunch`}></use>
             </svg>
             Get Started
           </Btn>
