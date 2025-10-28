@@ -2,7 +2,7 @@ import Header from "../Header";
 import Trending from "../sections/Trending";
 import Creators from "../sections/Creators";
 import Categories from "../sections/Categories";
-
+import Discover from "../sections/Discover";
 function Home() {
   return (
     <>
@@ -10,6 +10,7 @@ function Home() {
       <Trending />
       <Creators />
       <Categories />
+      <Discover />
     </>
   );
 }

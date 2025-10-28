@@ -1,0 +1,98 @@
+[
+  {
+    "image": "/DistantGal.png",
+    "title": "Distant Galaxy",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/LifeOn.png",
+    "title": "Life On Edena",
+    "name": "NebulaKid",
+    "avatarUrl": "/NebulaKid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Woman.png",
+    "title": "AstroFiction",
+    "name": "Spaceone",
+    "avatarUrl": "/dotgu.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/DistantGal.png",
+    "title": "Distant Galaxy",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/LifeOn.png",
+    "title": "Life On Edena",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Woman.png",
+    "title": "AstroFiction",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Crypto.png",
+    "title": "CryptoCity",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Dog.png",
+    "title": "ColorfulDog 0524",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/SpaceTales.png",
+    "title": "Space Tales",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Cherry.png",
+    "title": "Cherry Blossom Girl 037",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/DancingRobot.png",
+    "title": "Dancing Robots 0987",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  },
+  {
+    "image": "/Monkey.png",
+    "title": "IceCream Ape ",
+    "name": "Animakid",
+    "avatarUrl": "/Animakid.png",
+    "price": 1.63,
+    "bid": 0.33
+  }
+]
