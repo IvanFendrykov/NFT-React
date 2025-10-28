@@ -1,6 +1,6 @@
 import Btn from "../UI/Button";
-import { Sprite } from "../UI/Helpers";
 import CreateUsers from "../UI/CreateUsers";
+import Svg from "../UI/Svg";
 
 function Creators() {
   return (
@@ -14,9 +14,7 @@ function Creators() {
         </div>
         <CreateUsers />
         <Btn className="BtnView AnimationSvg" type="button">
-          <svg>
-            <use href={`${Sprite}#RocketLaunch`}></use>
-          </svg>
+          <Svg id="RocketLaunch" />
           View Rankings
         </Btn>
       </section>

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Btn from "./UI/Button";
 import BurgerMenu from "./UI/Burger";
-import { Sprite } from "./UI/Helpers";
+import Svg from "./UI/Svg";
 
 function Nav() {
   const popRef = useRef(null);
@@ -36,9 +36,7 @@ function Nav() {
             else el?.classList?.remove("is-hidden");
           }}
         >
-          <svg>
-            <use href={`${Sprite}#List`}></use>
-          </svg>
+          <Svg id="List" />
         </button>
       </nav>
       <BurgerMenu ref={popRef} />

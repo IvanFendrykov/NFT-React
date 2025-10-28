@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import Btn from "./Button";
-// import Sprite from "/NFT-React/assets/sprite.svg";
-import { Sprite } from "./Helpers";
+import Svg from "./Svg";
 
 const BurgerMenu = React.forwardRef(function BurgerMenu(_props, popRef) {
   const handleclose = () => {
@@ -25,9 +24,7 @@ const BurgerMenu = React.forwardRef(function BurgerMenu(_props, popRef) {
       aria-modal="true"
     >
       <button className="popoverclose" type="button" onClick={handleclose}>
-        <svg>
-          <use href={`${Sprite}#EyeSlash`}></use>
-        </svg>
+        <Svg id="EyeSlash" />
       </button>
       <ul className="ListBurger" onClick={handleItemClick}>
         <li>

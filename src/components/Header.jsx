@@ -1,5 +1,6 @@
-import { Sprite, BASEURL, BASE } from "./UI/Helpers";
+import { BASEURL, BASE } from "./UI/Helpers";
 import Btn from "./UI/Button";
+import Svg from "./UI/Svg";
 
 function Header() {
   return (
@@ -28,9 +29,7 @@ function Header() {
             </div>
           </div>
           <Btn className=" AnimationSvg" type="button">
-            <svg>
-              <use href={`${Sprite}#RocketLaunch`}></use>
-            </svg>
+            <Svg id="RocketLaunch" />
             Get Started
           </Btn>
           <div className="TotalArtists">
