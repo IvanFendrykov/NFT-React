@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Art",
+    "bcImg": "/Space.png",
+    "bcDesc": "Space",
+    "img": "/PaintBrush.png",
+    "imgDesc": "PaintBrush"
+  },
+  {
+    "name": "Collectibles",
+    "bcImg": "/Monkey.png",
+    "bcDesc": "Monkey",
+    "img": "/Swatches.png",
+    "imgDesc": "Swatches"
+  },
+  {
+    "name": "Music",
+    "bcImg": "/gitar.png",
+    "bcDesc": "Gitar",
+    "img": "/MusicNotes.png",
+    "imgDesc": "MusicNotes"
+  },
+  {
+    "name": "Photography",
+    "bcImg": "/OldMan.png",
+    "bcDesc": "OldMan",
+    "img": "/Camera.png",
+    "imgDesc": "Camera"
+  },
+  {
+    "name": "Video",
+    "bcImg": "/Boy.png",
+    "bcDesc": "Boy",
+    "img": "/VideoCamera.png",
+    "imgDesc": "VideoCamera"
+  },
+  {
+    "name": "Utility",
+    "bcImg": "/Key.png",
+    "bcDesc": "Key",
+    "img": "/MagicWand.png",
+    "imgDesc": "MagicWand"
+  },
+  {
+    "name": "Sport",
+    "bcImg": "/Ball.png",
+    "bcDesc": "Ball",
+    "img": "/Basketball.png",
+    "imgDesc": "Basketball"
+  },
+  {
+    "name": "Virtual Worlds",
+    "bcImg": "/City.png",
+    "bcDesc": "City",
+    "img": "/Planet.png",
+    "imgDesc": "Planet"
+  }
+]

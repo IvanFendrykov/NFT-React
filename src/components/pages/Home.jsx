@@ -1,6 +1,7 @@
 import Header from "../Header";
 import Trending from "../sections/Trending";
 import Creators from "../sections/Creators";
+import Categories from "../sections/Categories";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Trending />
       <Creators />
+      <Categories />
     </>
   );
 }
